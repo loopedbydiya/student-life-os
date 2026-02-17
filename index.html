@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Life OS</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <h1>Student Life OS</h1>
+
+  <div class="tabs">
+    <button class="tab active">Assignment</button>
+    <button class="tab">Attendance</button>
+    <button class="tab">GPA</button>
+  </div>
+
+  <div class="container">
+
+    <h2>Assignment Priority</h2>
+
+    <input type="text" id="subject" placeholder="Subject name" />
+    <input type="number" id="difficulty" placeholder="Difficulty (1-5)" />
+    <input type="number" id="days" placeholder="Days left" />
+    <input type="number" id="time" placeholder="Hours required" />
+
+    <button onclick="calculatePriority()">Calculate</button>
+
+    <div id="result"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
