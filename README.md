@@ -61,3 +61,4 @@ This allows students to make fast, informed study decisions.
 
 Priority score is calculated using:
 
+priority = (difficulty × 2) + (10 − daysLeft) + timeRequired
